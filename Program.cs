@@ -11,6 +11,7 @@ Console.Write("Digite o valor do produto que você deseja: ");
 double prod = double.Parse(Console.ReadLine());
 
 prod *= (1 - Desc); 
+// prod = prod - (prod * Desc);
 
 Console.WriteLine($"O produto que você deseja está saindo por R${prod:F2}!");
 Console.Write("Você deseja continuar sua compra? ");
